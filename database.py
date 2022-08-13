@@ -4,4 +4,4 @@ import models
 
 engine = create_engine(settings.database.url)
 
-models.SQLModel.metadata.create_all()
+models.SQLModel.metadata.create_all(engine)
