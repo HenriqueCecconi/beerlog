@@ -1,6 +1,7 @@
-from sqlmodel import create_engine, Session
-from beerlog.config import settings
+from sqlmodel import Session, create_engine
+
 from beerlog import models
+from beerlog.config import settings
 
 engine = create_engine(settings.database.url)
 

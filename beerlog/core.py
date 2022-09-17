@@ -1,5 +1,7 @@
-from typing import Optional, List
+from typing import List, Optional
+
 from sqlmodel import Session, create_engine, select
+
 from beerlog.database import get_session
 from beerlog.models import Beer
 

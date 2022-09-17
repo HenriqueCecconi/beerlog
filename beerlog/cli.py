@@ -1,5 +1,7 @@
-import typer
 from typing import Optional
+
+import typer
+
 from beerlog.core import add_beer_to_database, get_beers_from_database
 
 main = typer.Typer(help='Beer Managment Application')
